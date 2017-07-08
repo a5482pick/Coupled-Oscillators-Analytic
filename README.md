@@ -1,5 +1,7 @@
 The motion for two oscillators coupled by three springs is modelled. &nbsp; The CSS is written to create a direct reduction in size of the webpage components as the window size is reduced. &nbsp;  (This is in contrast to repository 'Oscillators-CSS-Resizing', where a reduction in browser size may create both resizing and restructuring of the page's items and components.) &nbsp; The canvas animation continues to play when the window is resized. &nbsp; To begin, run Oscillator.html from a directory that contains all files.
 
+(See repos. 'Oscillators-CSS-Resizing' and 'PHP-Parametric-Oscillation' for further related material.)
+
 
 --------------------------------------------------------------------------------------------------
 
