@@ -1,0 +1,158 @@
+
+#canvasOne {
+   position : absolute;
+   top : 67%;
+   margin-left : 5%;
+   margin-right : auto;
+   display : block;
+}
+
+#p1  {
+   position : absolute;      /*The introductory paragraph.*/
+   text-align : justify;
+   margin-left : 4%;
+   margin-right : 56%;
+   top : 10%;
+   line-height : 140%;
+   font-size : 2.5vh;
+   bottom : 50%;
+   overflow : auto;
+}
+
+#util1  {
+   position : absolute;       /*Grouping of editabe boxes and their text properties.*/
+   width : 7%;
+   height : 25%;
+   right : 26.5%;
+   top : 14%;
+   font-size : 1vw;
+}
+
+input {     /*Common properties of value boxes.*/
+   position : absolute;
+   width : 100%;
+   background-color : #00FF00;
+   border : 1px solid blue;
+   text-align : center;
+}
+
+#k1   {
+   top : 0%;
+   bottom : 88%;
+}
+
+#k2   {
+   top : 20%; 
+   bottom : 68%;
+}
+
+#k3  {
+   top : 40%;
+   bottom : 48%;
+}
+
+#m1   {
+   top : 60%;
+   bottom : 28%;
+}
+
+#m2  {
+   top : 80%;
+   bottom : 8%;
+}
+
+.title > div {             /*The headings for the editable boxes.*/
+   position : absolute;
+   right : 36%;
+   font-size : 1vw;
+   height : 3.2%;
+}
+
+#p2 {
+   top : 14%;
+}
+
+#p3 {
+   top : 19%;
+}
+
+#p4  {
+   top : 24%;
+}
+
+#p5  {
+   top : 29%;
+}
+
+#p6 {
+   top : 34%;
+}
+
+.button {                     /*Common button properties.*/
+   position : absolute;
+   top : 41%;
+   height : 3.2%;
+   width : 6.5%;
+   background-color : #808080;
+   cursor : pointer;
+   border-radius : 10%;
+}
+
+#start {
+   right : 35%;
+}
+
+#stop {
+   right : 26.5%;
+}
+
+#warning {             /*Extra text in small font.*/
+   position : absolute;
+   top : 41%;
+   bottom : 56%;
+   right : 15%;
+   left : 76%;
+   font-size: 0.9vw;
+}
+
+.button:hover {
+   background-color : #0000FF;
+}
+
+#adjust1, #adjust2 {    /*Refine text alignment in the buttons.*/
+   position : absolute;
+   top : 20%;
+   height : 100%;
+   width : 100%;
+   text-align : center;
+   font-size : 1vw;
+}
+
+#k1:hover,#k2:hover,#k3:hover,#m1:hover,#m2:hover {
+   background-color : #0000FF;
+}
+
+#popout1   {           /*Popout invites user to change parameters.*/
+   visibility : hidden;
+   position : absolute;
+   right : -230%;
+   top : 0%;
+   width : 200%;
+   background-color : #FFFFFF;
+   padding : 1%;
+   border-radius : 20%;
+   font : 1.2vw;
+   font-style : italic;
+   text-align : center;
+   -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 2s, padding-bottom 2s, padding-top 0.5s;
+}
+
+#util1:hover #popout1   {
+   visibility : visible;
+   background-color : #00FFFF;
+   padding-bottom : 30%;
+   padding-top : 30%;
+}
+
+

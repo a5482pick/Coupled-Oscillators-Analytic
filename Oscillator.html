@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Two Oscillators</title>
+<link rel="stylesheet" type="text/css" href ="Oscillator.css">
+<script type="text/javascript" src="main.js"></script>
+
+</head>
+<body>
+
+<p id="p1">Press 'Start' to see the animation.  Spring k1 and mass m1 are on the left, spring k2 is in the middle,  and spring k3 and mass m2 are on the right.  The initial condition is for m1 to be displaced by a fixed amount, but with zero velocity.  
+Mass m2 begins at its equilibrium position with zero velocity.  The animation then shows the time-evolution of the system.  Change some of the parameters to see how the response of the system varies: higher values of k correspond to greater stiffness, larger values of m correspond to greater mass.  Values are limited to the interval [1,100] (this is enough to show the range of possible behaviours).  The canvas acts to constrain the viewing area: when the masses are very large, only parts of the masses are visible.  </p>
+
+<!-- The buttons and form will need modifying if made active for the internet. -->
+<form>
+    <div id="util1">
+        <input id="k1" value="1"></input>
+        <input id="k2" value="1"></input>
+        <input id="k3" value="1"></input>
+        <input id="m1" value="1"></input>
+        <input id="m2" value="1"></input>
+        <div id="popout1">Click a box to edit.</div>
+    </div>
+    <div id="start" class="button"><div id="adjust1">Start</div></div>
+</form>
+
+<div id="stop" class="button"><div id="adjust2">Reset</div></div>
+
+<div class="title">
+   <div id="p2">Spring constant k1:</div>
+   <div id="p3">Spring constant k2:</div>
+   <div id="p4">Spring constant k3:</div>
+   <div id="p5">Mass m1:</div>
+   <div id="p6">Mass m2:</div>
+</div>
+
+<div id="warning">*Always "Reset" before entering new parameters/restarting.</div>
+
+<canvas id="canvasOne">Browser does not support canvas.</canvas>
+
+</body>
+</html>
